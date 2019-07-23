@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body id="2" style="background: url('Cobaka.jpg')">
+<center><img id="1" src="bluespin.jpg" height="500"></br>
+<button onclick="bup1()"><img src="bluespin.jpg" height="300"></button><button onclick="bup2()"><img src="pinkspin.jpg" height="300"></button><button onclick="bup3()"><img src="yellowspin.jpg" height="300"></button></br>
+<button onclick="fon2()"><img src="Cat.jpg" height="200"></button><button onclick="fon1()"><img src="Cobaka.jpg" height="200"></button><button onclick="fon3()"><img src="Giraffe_standing.jpg" height="200"></button></center>
+</body>
+<script>
+    gradus=0
+    function bup1(){
+        document.getElementById('1').src="bluespin.jpg"
+        }
+    function bup2(){
+            document.getElementById('1').src='pinkspin.jpg'
+        }
+    function bup3(){
+            document.getElementById('1').src='yellowspin.jpg'
+        }
+    function fon1(){
+            document.getElementById('2').style.background='url("Cobaka.jpg")'
+        }
+    function fon2(){
+            document.getElementById('2').style.background='url("Cat.jpg")'
+        }
+    function fon3(){
+            document.getElementById('2').style.background='url("Giraffe_standing.jpg")'
+        }
+</script>
+</html>
